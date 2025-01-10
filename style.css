@@ -12,6 +12,10 @@
 a{
   text-decoration: none;
 }
+p{
+  color: var(--secondary-color);
+  opacity: 70%;
+}
 button{
   border: none;
   outline: none;
@@ -31,17 +35,18 @@ button:hover{
   --body-color: #F1F1F3;
   --button-color: #006A50;
   --primary-color: #ffffff;
+  --secondary-color: #0E0E0E;
   --box1-bg: #C6E4D6;
   --box2-bg: #5490F5;
   --box-3-bg: #F7EBCF;
-  --border-color: #0E0E0E;
+  --border-color: #e4e7e7;
 }
 /* Body */
 body{
   background-color: var(--body-color);
 }
-/* Header */
-
+/* ======== ( Header )======== */
+/* Develoepr - abdullahalsifat.com */
 /* Nav Bar */
 .nav_bar{
   display: flex;
@@ -81,7 +86,7 @@ body{
   gap: 20px;
 }
 .banner_small_text{
-  color: var(--border-color);
+  color: var(--secondary-color);
   opacity: 50%;
   font-weight: bold;
 }
@@ -104,7 +109,38 @@ body{
 .banner_img img{
   width: 80%;
 }
-
+/* ======== ( Main )======== */
+/* Pillars Section */
+.pillars_section{
+  padding: 20px 0;
+}
+.pillars_heading{
+  font-size: 28px;
+  margin-bottom: 25px;
+}
+.pillars_card{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.pillars_card_content{
+  background-color: var(--primary-color);
+  padding: 20px;
+  border-radius: 12px;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  border: 1px solid var(--border-color);
+}
+.pillars_card_image{
+  width: 25%;
+}
+.pillars_card_heading{
+  color: var(--secondary-color);
+  opacity: 80%;
+}
 /* Responsive Design */
 @media (max-width: 1024px){
   /* Banner */
