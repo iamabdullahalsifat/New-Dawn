@@ -100,3 +100,45 @@ body{
 .banner_img img{
   width: 80%;
 }
+
+
+
+/* Responsive Design */
+@media (max-width: 1024px){
+  /* Banner */
+  .banner{
+    flex-direction: column;
+    gap: 80px;
+  }
+  .banner_text{
+    text-align: center;
+  }
+  .banner_heading{
+    max-width: 100%;
+    font-size: 45px;
+  }
+  .banner_button{
+    align-self: center;
+  }
+  .banner_img{
+    justify-content: center;
+  }
+}
+@media (max-width: 768px){
+  /* Banner */
+  .banner_heading{
+    font-size: 40px;
+  }
+}
+@media (max-width: 600px){
+  /* Banner */
+  .banner_heading{
+    font-size: 30px;
+  }
+}
+@media (max-width: 480px){
+  /* Banner */
+  .banner_heading{
+    font-size: 24px;
+  }
+}
