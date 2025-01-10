@@ -18,6 +18,10 @@ button{
   background-color: transparent;
   cursor: pointer;
 }
+button:hover{
+  background-color: var(--button-color);
+  transition: 0.3s ease-in;
+}
 .screen_width{
   max-width: 1200px;
   margin: auto;
@@ -100,8 +104,6 @@ body{
 .banner_img img{
   width: 80%;
 }
-
-
 
 /* Responsive Design */
 @media (max-width: 1024px){
