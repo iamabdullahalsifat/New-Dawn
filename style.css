@@ -32,6 +32,10 @@ button{
   --box-3-bg: #F7EBCF;
   --border-color: #0E0E0E;
 }
+/* Body */
+body{
+  background-color: var(--body-color);
+}
 /* Header */
 
 /* Nav Bar */
@@ -51,4 +55,48 @@ button{
   border-radius: 8px;
   color: var(--button-color);
   font-weight: 500;
+}
+.header_sign_btn:hover{
+  background-color: var(--button-color);
+  color: var(--primary-color);
+  transition: 0.3s ease-in;
+}
+/* Banner */
+.banner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--box1-bg);
+  padding: 80px 50px;
+  margin: 10px 0 30px;
+  border-radius: 20px;
+}
+.banner_text{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.banner_small_text{
+  color: var(--border-color);
+  opacity: 50%;
+  font-weight: bold;
+}
+.banner_heading{
+  font-size: 50px;
+  max-width: 600px;
+}
+.banner_button{
+  align-self: flex-start;
+  background-color: var(--button-color);
+  color: var(--primary-color);
+  padding: 12px 25px;
+  border-radius: 8px;
+  font-weight: 600;
+}
+.banner_img{
+  display: flex;
+  justify-content: flex-end;
+}
+.banner_img img{
+  width: 80%;
 }
