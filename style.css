@@ -308,6 +308,13 @@ body{
   .vision_card_content{
     flex: 1 1 calc(100% - 20px);
   }
+  /* Recent News */
+  .news_card_content{
+    flex-direction: column;
+  }
+  .recent_news2{
+    flex-direction: column-reverse;
+  }
 }
 @media (max-width: 600px){
   /* Banner */
