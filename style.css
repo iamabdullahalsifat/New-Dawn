@@ -315,6 +315,43 @@ body{
 .donate_taka_active{
   background-color: var(--box1-bg);
 }
+/* Newsletter */
+.newsletter{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  background-color: var(--box1-bg);
+  padding: 60px 20px;
+  margin: 20px 0;
+  border-radius: 16px;
+}
+.news_letter_heading{
+  font-size: 28px;
+}
+.newsletter_label{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.newsletter_input{
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+.newsletter_submit{
+  background-color: var(--button-color);
+  color: var(--primary-color);
+  padding: 10px 20px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+.newsletter_label ::placeholder{
+  text-align: left;
+}
 /* Responsive Design */
 @media (max-width: 1024px){
   /* Banner */
