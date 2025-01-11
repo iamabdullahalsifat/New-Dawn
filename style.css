@@ -16,6 +16,9 @@ p{
   color: var(--secondary-color);
   opacity: 70%;
 }
+.card_p{
+  font-size: 14px;
+}
 button{
   border: none;
   outline: none;
@@ -30,14 +33,25 @@ button:hover{
   max-width: 1200px;
   margin: auto;
   padding: 0 20px;
-} 
+}
+.box1{
+  background-color: var(--box1-bg);
+}
+.box2{
+  background-color: var(--box2-bg);
+}
+.box3{
+  background-color: var(--box-3-bg);
+}
 :root{
   --body-color: #F1F1F3;
   --button-color: #006A50;
+  --btn2: #5490F5;
+  --btn3: #FFC239;
   --primary-color: #ffffff;
   --secondary-color: #0E0E0E;
   --box1-bg: #C6E4D6;
-  --box2-bg: #5490F5;
+  --box2-bg: #d5e1f5;
   --box-3-bg: #F7EBCF;
   --border-color: #e4e7e7;
 }
@@ -142,6 +156,50 @@ body{
   color: var(--secondary-color);
   opacity: 80%;
 }
+/* Vision Section */
+.vision_section{
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.vision_heading{
+  font-size: 28px;
+}
+.vision_card{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.vision_card_content{
+  flex: 1 1 calc(33% - 20px);
+  border-radius: 16px;
+  padding: 20px;
+}
+.vision_card_img{
+  margin-bottom: 15px;
+}
+.vision_card_heading{
+  margin-bottom: 10px;
+  color: var(--secondary-color);
+  opacity: 80%;
+}
+.vision_button{
+  font-size: 14px;
+  color: var(--primary-color);
+  padding: 8px 12px;
+  border-radius: 8px;
+  margin-top: 15px;
+}
+.vision_button1{
+  background-color: var(--btn2);
+}
+.vision_button2{
+  background-color: var(--button-color);
+}
+.vision_button3{
+  background-color: var(--btn3);
+}
 /* Responsive Design */
 @media (max-width: 1024px){
   /* Banner */
@@ -174,6 +232,10 @@ body{
   /* Banner */
   .banner_heading{
     font-size: 40px;
+  }
+  /* Vision Section */
+  .vision_card_content{
+    flex: 1 1 calc(100% - 20px);
   }
 }
 @media (max-width: 600px){
