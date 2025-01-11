@@ -215,6 +215,47 @@ body{
   color: var(--secondary-color);
   opacity: 70%;
 }
+/* Opinion Section */
+.opinion_section{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 20px 0;
+}
+.opinion_heading{
+  font-size: 28px;
+}
+.opinion_content{
+  background-color: var(--primary-color);
+  border-radius: 8px;
+  padding: 20px;
+}
+.opinion_table{
+  width: 100%;
+}
+.table_heading{
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--box1-bg);
+  padding: 15px 20px;
+}
+table, td{
+  border: 1px solid var(--border-color);
+  border-collapse: collapse;
+  padding: 10px 20px;
+}
+.td_select{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  border: none;
+  outline: none;
+  background-color: var(--box1-bg);
+  border: 1px solid var(--secondary-color);
+  border-radius: 4px;
+  padding: 4px;
+}
 /* Recent News */
 .recent_news{
   padding: 20px 0;
