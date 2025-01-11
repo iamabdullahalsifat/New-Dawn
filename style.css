@@ -200,6 +200,21 @@ body{
 .vision_button3{
   background-color: var(--btn3);
 }
+.yunus_section{
+  background-color: var(--primary-color);
+  padding: 50px 20px;
+  border-radius: 16px;
+  border: 1px solid var(--border-color);
+  background-image: url(/image/quote_section.png);
+  background-repeat: no-repeat;
+  background-position: 20px 20px;
+}
+.yunus_heading{
+  margin-top: 15px;
+  margin-bottom: 8px;
+  color: var(--secondary-color);
+  opacity: 70%;
+}
 /* Responsive Design */
 @media (max-width: 1024px){
   /* Banner */
